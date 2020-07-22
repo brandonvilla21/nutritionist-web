@@ -12,7 +12,7 @@ const divStyles = {
 function Services() {
   return (
     <>
-      <Row>
+      <Row style={{ maxWidth: '100%', marginRight: 0, marginLeft: 0 }}>
         <Col lg={3} md={6} sm={12} style={{ backgroundColor: '#ffb71b' }}>
           <div style={divStyles}>
             <img
